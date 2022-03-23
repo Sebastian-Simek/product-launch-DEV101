@@ -4,40 +4,71 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
         <link rel="stylesheet" href="./styles/style.css" />
-       
-
-        <title>Dev 101 Product Launch</title>
+        <title>VFA Launch</title>
     </head>
 
     <body>
-        <header>
-            <h1 class="Shader">New Ski Resort</h1>
-            <h2 class="dark-text">Coming soon</h1>
+        <header> 
+            <h1 class="Banner">Victorville Film Archives Theater</h1>
+            <h2>Opening soon</h1>
         </header>
-
-        
-            <div class="Box-one">
-            <ul>
-                <li>
-                    High speed quad lifts
-                </li>
-                <li>
-                    Dining
-                </li>
-                <li>
-                    Apre Ski    
-                </li>
-            </ul>
-        </div>
-        <h3>
-            
         <main>
-            <p> With the threat of global warning looming down on us we went ahead and opened a new ski resort!</p>
-        </h3>
-            <img src="./assets/solda-g5e6851419_1920.jpg" alt="Waterfall">
-        </main>
+        <div>
+            <h3 id = "greg">Featuring expert advice from film guru/expert Greg Turkington</h3>
+        </div>   
+            <img src="./assets/Greg.jpg" alt="Greg Turkington" class="greg">
+            <img src="./assets/VFA.jpg" alt="VFA Logo" class="logo">
+        </div>    
+        <div>
+        <header>
+            <h2>Movies Currently Showing:</h2>
+        </header>
+        <div>
+            <table class="boxOne">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Run-Time</th>
+                        <th>Year</th>
+                        <th>Show Time</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Kuffs</td>
+                        <td>102 minutes</td>
+                        <td>1992</td>
+                        <td>7:30 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Body Guard</td>
+                        <td>129 minutes</td>
+                        <td>2001</td> 
+                        <td>8:30 PM</td>                  
+                    </tr>
+                    <tr>
+                        <td>A Simple Twist of Fate</td>
+                        <td>106 minutes</td>
+                        <td>1994</td>
+                        <td>12:30 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div> 
+    </div>
 
+        <div id="email-inputs">   
+        <label>
+            Please register   
+            <input type="email">
+        </label>
+        <button id ="button">Submit</button>
+        <p id="thank-you" class="hide">Thank you we'll be in touch</p>
+        </div>   
+
+    </main>
     </body>
+    <script src="app.js">
+    </script>
 </html>

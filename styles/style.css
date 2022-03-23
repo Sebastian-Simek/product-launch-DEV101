@@ -1,28 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption&family=Ropa+Sans&display=swap');
-
 * {
---beau-blue: rgb(10, 10, 10);
---air-superiority-blue: #759eb8ff;
---shadow-blue: rgb(175, 193, 214);
---light-steel-blue: #b3c5d7ff;
---gainsboro: #d8e1e9ff;
-}
-img{
-    width: 100vw;
-    border: 5px solid var(--beau-blue);
-}
-body {
-    display: flex;
-    color: rgb(12, 4, 39);
-    font-family: 'PT Sans Caption', sans-serif;
-    background-color: var(--shadow-blue);
-}
-main {
-    width: 10vw;
-}
-.dark-text {
-    color: rgb(12, 4, 39)
+    background-color: yellow;
 }
 
-
+.hide {
+    display: none;
+}
 
